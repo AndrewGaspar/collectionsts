@@ -1,0 +1,29 @@
+{
+  "name": "collectionsts",
+  "version": "0.0.1",
+  "description": "collectionsts\r =============",
+  "main": "collectionsts.js",
+  "scripts": {
+	"prepublish": "cd test && tsc --target ES5 test.ts && cd .. && tsc --target ES5 --declaration collectionsts.ts",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewGaspar/collectionsts.git"
+  },
+  "keywords": [
+    "collections",
+    "typescript",
+    "hash",
+    "hash",
+    "map",
+    "generic",
+    "collection",
+    "uniquely",
+    "identifiable"
+  ],
+  "author": "Andrew Gaspar",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "5521110d750d1ca3708d63cefa44b54bcdf33f3f"
+}
